@@ -272,13 +272,16 @@ ul {
     background-color: var(--grey-color);
     height: 120px;
     margin-bottom: 30px;
-    padding-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 
 }
 
 .hilites__icon {
-    display: block;
-    margin:  auto;
+
+
 }
 
 .hilites__title {
@@ -403,13 +406,17 @@ ul {
     justify-content: space-between;
 }
 
+
+
 .clients__link {
     display: block;
     width: 170px;
     height: 92px;
-    padding: 16px 32px;
     border: 1px solid var(--logo-gray);
     border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .clients__logo {
